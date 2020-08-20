@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Skill #<%= skillId %></h1>
+    <h3><%= skill.skill %></h3>
+    <h3>Learned: <%= skill.learned ? 'Yes' : 'No' %></h3>
+        <a href="/skills/<%= skill.id %>/edit">Edit Skill</a>
+        <a href="/skills"><br>Back to My Skill List</a>
+    </ul>
+</body>
+</html>
